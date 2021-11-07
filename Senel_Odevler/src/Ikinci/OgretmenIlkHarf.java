@@ -18,6 +18,7 @@ public class OgretmenIlkHarf {
         char ilkKarakter=scan.next().charAt(0);
         
         
+        
         if (ilkKarakter>='A' && ilkKarakter<='Z') { // buyuk harfleri secmis olacak
             if (ilkKarakter=='A') {
                 System.out.println("Gecerli Sifre");
